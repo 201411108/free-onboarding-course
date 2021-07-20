@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+.NavigationContainer {
+    position: relative;
+    max-width: 1060px;
+    height: 50px;
+}
+
+@media (min-width: 1200px) {
+    .NavigationContainer {
+        width: 87.72%;
+        margin: 0 auto;
+        height: 50px;
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* a, a:active, a:hover, a:visited {
+    color: inherit;
+}
+
+a {
+    text-decoration: inherit;
+    cursor: pointer;
+}
+
+.logoA {
+    display: block;
+}
+
+/* 작은 화면에서 
+.iconLogo::before {
+    content: '\e992'
+} */
+
+ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    height: inherit;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.phoneOnly {
+    display: none;
+}
+
+li {
+    float: left;
+    margin: 0;
+    border: 0;
+    padding: 2%;
+}
+
+.desktopVisible {
+    height: inherit;
+    display: inline-block;
+}
+
+aside {
+    height: 100%;
+    padding: 9px 0;
+}
+
+.searchButton {
+    position: relative;
+    margin-top: 5px;
+}

@@ -1,3 +1,4 @@
+/* eslint-disable prefer-template */
 import React, { useState, useEffect } from 'react'
 import './Logo.css'
 
@@ -13,14 +14,9 @@ function Logo() {
         window.addEventListener('resize', handleResize)
     })
 
-    if(windowSize >= 768) {
-        return (
-            <div className='logo'>
-                wanted
-            </div>
-        )
-    } 
-    return <div />
+    const logo = <div className={'logo ' + (windowSize >= 768 ? '' : 'hide')}>wanted</div>
+
+    return logo
     
 }
 

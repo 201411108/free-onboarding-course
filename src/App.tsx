@@ -1,13 +1,27 @@
-import React from 'react'
-import NavigationBar from './components/NavigationBar'
+import React, { useState, useEffect } from 'react'
+import DesktopNavigationBar from './components/Desktop/DesktopNavigationBar'
 import './App.css'
 
 function App() {
+  const [windowSize, setWindowSize] = useState(window.innerWidth)
+
+  const handleResize = () => {
+      setWindowSize(window.innerWidth)
+  }
+
+  useEffect(() => {
+      window.addEventListener('resize', handleResize)
+  })
+
   return (
     <div className='App'>
       {/* min width 1200, 768 / max-width 767 */}
-      <NavigationBar />
-      <div className='categories' />
+      { (windowSize >= 767) ? (
+          <DesktopNavigationBar />
+        ) : (
+          <div>MobileNavigationBar</div>
+        )
+      }
     </div>
   );
 }

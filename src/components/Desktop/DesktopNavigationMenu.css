@@ -10,18 +10,9 @@ ul {
     border: 0;
 }
 
-.phoneOnly {
-    display: none;
-}
-
 li {
     float: left;
     margin: 0;
     border: 0;
     padding: 2%;
-}
-
-.desktopVisible {
-    height: inherit;
-    display: inline-block;
 }

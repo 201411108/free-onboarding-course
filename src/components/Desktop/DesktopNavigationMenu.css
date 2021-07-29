@@ -1,18 +1,24 @@
-ul {
-    display: flex;
-    flex: 1;
-    justify-content: space-evenly;
-    height: inherit;
-    text-align: center;
-    list-style: none;
+* {
     margin: 0;
     padding: 0;
-    border: 0;
 }
 
-li {
+.Menu {
     float: left;
-    margin: 0;
-    border: 0;
-    padding: 2%;
+    list-style: none;
+}
+
+.Menu a {
+    display: block;
+    height: 50px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.Menu a:hover {
+    text-decoration: none;
 }

@@ -4,14 +4,14 @@ import './DesktopNavigationMenu.css'
 function DesktopNavigationMenu() {
     return (
         <ul>
-            <li>탐색</li>
-            <li>커리어 성장</li>
-            <li>직군별 연봉</li>
-            <li>이력서</li>
-            <li>매치업</li>
-            <li>프리랜서</li>
-            <li>AI 합격예측</li>
-        </ul>
+            <li className='Menu'><a href='/'>탐색</a></li>
+            <li className='Menu'><a href='/'>커리어 성장</a></li>
+            <li className='Menu'><a href='/'>직군별 연봉</a></li>
+            <li className='Menu'><a href='/'>이력서</a></li>
+            <li className='Menu'><a href='/'>매치업</a></li>
+            <li className='Menu'><a href='/'>프리랜서</a></li>
+            <li className='Menu'><a href='/'>AI 합격예측</a></li>
+       </ul>
     )
 }
 

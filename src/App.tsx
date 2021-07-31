@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react'
 import { Desktop, Mobile } from './MediaQuery'
 import DesktopNavigationBar from './components/Desktop/DesktopNavigationBar'

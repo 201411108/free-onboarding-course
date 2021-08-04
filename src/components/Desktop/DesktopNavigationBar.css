@@ -1,20 +1,15 @@
-* {
-    box-sizing: border-box;
-}
-
 .NavigationContainer {
-    position: relative;
     max-width: 1060px;
     width: 87.72%;
-    margin: 0 auto;
     height: 50px;
+    margin: 0 auto;
 }
 
 nav {
-    height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 50px;
 }

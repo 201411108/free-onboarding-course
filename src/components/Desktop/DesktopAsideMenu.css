@@ -1,29 +1,22 @@
-* {
-    box-sizing: border-box;
-}
-
 aside {
+    display: block;
     height: 100%;
     padding: 9px 0;
-    display: block;
 }
 
 ul {
     height: 100%;
-    margin: 0;
 }
 
 .AsideMenu {
-    position: relative;
-    list-style: none;
     display: inline-block;
+    list-style: none;
     vertical-align: middle;
 }
 
 .searchButton {
     background: none;
     border: none;
-    position: relative;
     margin-top: 5px;
     padding-right: 10px;
     padding-left: 10px;

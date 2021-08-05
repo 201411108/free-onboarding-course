@@ -8,7 +8,7 @@ function DesktopAsideMenu() {
         <aside>
             <ul>
                 <li className='AsideMenu'>
-                    <button type='button' className='searchButton'>
+                    <button type='button' className='buttons'>
                         <img className='searchButtonImg' 
                             src='/assets/group-9.webp'
                             srcSet='/assets/group-9@2x.webp 2x,
@@ -18,7 +18,7 @@ function DesktopAsideMenu() {
                     </button>
                 </li>
                 <li className='AsideMenu'>
-                    <button type='button' className='searchButton'>
+                    <button type='button' className='buttons'>
                         <img className='searchButtonImg' 
                             src='/assets/group-9.webp'
                             srcSet='/assets/group-9@2x.webp 2x,
@@ -28,7 +28,7 @@ function DesktopAsideMenu() {
                     </button>
                 </li> 
                 <li className='AsideMenu'>
-                    <button type='button' className='searchButton'>
+                    <button type='button' className='buttons'>
                         <img className='searchButtonImg' 
                             src='/assets/group-9.webp'
                             srcSet='/assets/group-9@2x.webp 2x,

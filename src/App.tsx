@@ -1,5 +1,6 @@
 import React from 'react'
-import { Desktop, Mobile } from './MediaQuery'
+import MobileNavigationBar from 'components/Mobile/MobileNavigationBar'
+import { Desktop, Mobile, Tablet } from './MediaQuery'
 import DesktopNavigationBar from './components/Desktop/DesktopNavigationBar'
 import Content from './components/Content'
 import './App.css'
@@ -11,7 +12,10 @@ function App() {
         <Desktop>
           <DesktopNavigationBar />
         </Desktop>
-        <Mobile><div>This is Mobile</div></Mobile>
+        <Tablet><div>This is Tablet</div></Tablet>
+        <Mobile>
+          <MobileNavigationBar />
+        </Mobile>
       </div>
       <Content />
     </>

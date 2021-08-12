@@ -1,0 +1,15 @@
+.MobileNavigationBar {
+    max-width: 435px;
+    width: 87.72%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 50px;
+}

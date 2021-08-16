@@ -7,7 +7,7 @@
 .App {
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   z-index: 100;
   border-bottom: 1px solid #C4C4C4;
   flex-wrap: wrap;

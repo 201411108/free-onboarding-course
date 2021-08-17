@@ -1,29 +1,49 @@
-import React  from 'react'
+import React, { useState }  from 'react'
 import './MobileNavigationMenu.css'
 
-// TODO :: 항목이 클릭되었을 때, 가장 아래 줄에 파란색으로 밑줄이 그어져야 한다.
+
 function MobileNavigationMenu() {
+    const [homeSwitch, setHomeSwitch] = useState<boolean>(false)
+    const [searchSwitch, setSearchSwitch] = useState<boolean>(false)
+    const [careerSwitch, setCareerSwitch] = useState<boolean>(false)
+
+    const homeClassName = homeSwitch ? 'MobileMenuHome onMouse' : 'MobileMenuHome'
+    const searchClassName = searchSwitch ? 'MobileMenuSearch onMouse' : 'MobileMenuSearch'
+    const careerClassName = careerSwitch ? 'MobileMenuCareer onMouse' : 'MobileMenuCareer'
+
     const onMouseEnterHandler = (e: any) => {
-        e.target.parentNode.className = 'MobileMenu onMouse'
+        if(e.target.className === 'MobileMenuHome') {
+            setHomeSwitch(!homeSwitch)
+        } else if(e.target.className === 'MobileMenuSearch') {
+            setSearchSwitch(!searchSwitch)
+        } else {
+            setCareerSwitch(!careerSwitch)
+        }
     }
 
     const onMouseLeaveHandler = (e: any) => {
-        e.target.parentNode.className = 'MobileMenu'
+        if(e.target.className === 'MobileMenuHome onMouse') {
+            setHomeSwitch(!homeSwitch)
+        } else if(e.target.className === 'MobileMenuSearch onMouse') {
+            setSearchSwitch(!searchSwitch)
+        } else {
+            setCareerSwitch(!careerSwitch)
+        }
     }
 
     return (
         <ul>
-            <li className='MobileMenu'
+            <li className={homeClassName}
                 onMouseEnter={ onMouseEnterHandler }
                 onMouseLeave={ onMouseLeaveHandler }>
                 <a href='/'>홈</a>
             </li>
-            <li className='MobileMenu'
+            <li className={searchClassName}
                 onMouseEnter={ onMouseEnterHandler }
                 onMouseLeave={ onMouseLeaveHandler }>
                 <a href='/'>탐색</a>
             </li>
-            <li className='MobileMenu'
+            <li className={careerClassName}
                 onMouseEnter={ onMouseEnterHandler }
                 onMouseLeave={ onMouseLeaveHandler }>
                 <a href='/'>커리어 성장</a>

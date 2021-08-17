@@ -5,6 +5,7 @@
 
 .Menu a {
     display: block;
+    /* width: 100%; */
     font-size: 87.5%;
     color: black;
     font-weight: bold;

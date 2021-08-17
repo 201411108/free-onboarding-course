@@ -1,6 +1,10 @@
+/* 이 컴포넌트는 다른 컴포넌트들의 부모 컴포넌트들로써 아래 속성을 기반으로 %로 크기 및 폰트 조정 예정
+    max-width: 1060px;
+    font-size: 16px
+ */
+
 .NavigationContainer {
     max-width: 1060px;
-    width: 87.72%;
     height: 50px;
     margin: 0 auto;
 }
@@ -11,5 +15,4 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 50px;
 }

@@ -1,4 +1,7 @@
 import React from  'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faBell, faUserCircle } from '@fortawesome/free-regular-svg-icons'
 import './DesktopAsideMenu.css'
 
 // Desktop -> all
@@ -9,32 +12,17 @@ function DesktopAsideMenu() {
             <ul>
                 <li className='AsideMenu'>
                     <button type='button' className='buttons'>
-                        <img className='searchButtonImg' 
-                            src='/assets/group-9.webp'
-                            srcSet='/assets/group-9@2x.webp 2x,
-                                    /assets/group-9@e3x.webp 3x'
-                            alt='search'
-                        />
+                        <FontAwesomeIcon icon={ faSearch } size='lg' />
                     </button>
                 </li>
                 <li className='AsideMenu'>
                     <button type='button' className='buttons'>
-                        <img className='searchButtonImg' 
-                            src='/assets/group-9.webp'
-                            srcSet='/assets/group-9@2x.webp 2x,
-                                    /assets/group-9@e3x.webp 3x'
-                            alt='search'
-                        />
+                        <FontAwesomeIcon icon={ faBell } size='lg' />
                     </button>
                 </li> 
                 <li className='AsideMenu'>
                     <button type='button' className='buttons'>
-                        <img className='searchButtonImg' 
-                            src='/assets/group-9.webp'
-                            srcSet='/assets/group-9@2x.webp 2x,
-                                    /assets/group-9@e3x.webp 3x'
-                            alt='search'
-                        />
+                        <FontAwesomeIcon icon={ faUserCircle } size='lg' />
                     </button>
                 </li>
                 <li className='AsideMenu leftDiv'>

@@ -1,14 +1,9 @@
-* {
+*, .App {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.App {
-  position: fixed;
+#wrap {
   width: 100%;
-  background-color: #ffffff;
-  z-index: 100;
-  border-bottom: 1px solid #C4C4C4;
-  flex-wrap: wrap;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { GNBContainer, TitleContainer, MenuContainer, AsideMenuContainer, ContentsContainer } from 'containers'
-import { Content } from 'components'
+import { Content, TitleComponent } from 'components'
 import './App.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <div id='wrap'>
         <GNBContainer>
           <TitleContainer>
-            Title
+            <TitleComponent />
           </TitleContainer>
           <MenuContainer>
             Menu

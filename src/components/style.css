@@ -1,9 +1,36 @@
+@media (min-width: 650px) {
+    .title-item {
+        font-size: 1.125em;
+    }
+    .title-item.mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1300px) {
+    .title-item {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 649px) {
+    .title-item.desktop {
+        display:none
+    }
+}
+
 .content {
     display: block;
-    /* 패딩 제외 실제 영역이 80% -> gnb-container와 동일 */
     width: 90%;
     margin: 0 auto;
     padding: 1% 5%;
     background: #ffffff;
-    text-align: center;
   }
+
+.title-item {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin: 0% 5%;
+    font-weight: bold;
+}

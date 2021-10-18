@@ -1,5 +1,13 @@
 import React from 'react'
-import './Content.css'
+import '../style.css'
+
+<div id='wrap'>
+    <div className='main-contents'>
+        <div className='content'>
+            <div>Contents</div>
+        </div>
+    </div>
+</div>
 
 function Content() {
     return (

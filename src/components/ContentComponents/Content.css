@@ -1,9 +1,0 @@
-.content {
-    display: block;
-    /* 패딩 제외 실제 영역이 80% -> gnb-container와 동일 */
-    width: 90%;
-    margin: 0 auto;
-    padding: 1% 5%;
-    background: #ffffff;
-    text-align: center;
-  }

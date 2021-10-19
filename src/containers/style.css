@@ -6,10 +6,10 @@
     border-bottom: 2px solid #C4C4C4;
     flex-wrap: wrap;
     text-align: center;
-    line-height: 60px;
   }
 
 .gnb-container {
+  display: flex;
   width: 80%;
   height: 100%;
   margin: 0 auto;

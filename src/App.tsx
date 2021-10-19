@@ -1,6 +1,6 @@
 import React from 'react'
 import { GNBContainer, TitleContainer, MenuContainer, AsideMenuContainer, ContentsContainer } from 'containers'
-import { Content, TitleComponent } from 'components'
+import { Content, MenuComponent, TitleComponent } from 'components'
 import './App.css'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
             <TitleComponent />
           </TitleContainer>
           <MenuContainer>
-            Menu
+            <MenuComponent />
           </MenuContainer>
           <AsideMenuContainer>
             Aside Menus

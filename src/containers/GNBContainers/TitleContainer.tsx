@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/GNBMenuContainer.css'
 
 function TitleContainer({ children }: any) {
     return (

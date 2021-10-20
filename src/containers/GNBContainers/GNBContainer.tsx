@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style.css'
+import '../style/GNBContainer.css'
 
 function GNBContainer({ children }: any) {
     return (

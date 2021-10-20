@@ -1,0 +1,18 @@
+.title-container, .menu-container, .aside-menu-container {
+    display: inline-block;
+    height: 100%;
+}
+
+.title-container {
+    width: 20%;
+}
+
+.menu-container {
+    border: 2px solid gold;
+    width: 50%;
+}
+
+.aside-menu-container {
+    border: 2px solid gold;
+    width: 30%;
+}

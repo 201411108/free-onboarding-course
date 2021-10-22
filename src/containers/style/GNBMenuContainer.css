@@ -1,5 +1,7 @@
 .title-container, .menu-container, .aside-menu-container {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
 }
 

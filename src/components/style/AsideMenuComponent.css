@@ -1,0 +1,36 @@
+@media (min-width: 650px) {
+    .aside-item.mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 649px) {
+    .aside-item.desktop {
+        display: none;
+    }
+    .aside-btn.desktop {
+        display: none;
+    }
+
+    .aside-item.mobile {
+        display: inline-block;
+    }
+}
+
+.aside-item, .aside-btn {
+    margin: 3%;
+}
+
+.aside-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-btn::before {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color: #e1e2e3;
+    margin: auto 20px;
+}

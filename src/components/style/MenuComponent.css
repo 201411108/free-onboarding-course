@@ -1,0 +1,16 @@
+.menu-ul, .menu-li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu-ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu-li {
+    width: 12%;
+    float: left;
+    font-weight: bold;
+}

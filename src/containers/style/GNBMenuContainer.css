@@ -1,0 +1,21 @@
+.title-container, .menu-container, .aside-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.title-container {
+    width: 20%;
+}
+
+.menu-container {
+    width: 50%;
+}
+
+.aside-menu-container {
+    border: 2px solid gold;
+    width: 30%;
+    justify-content: space-around;
+    padding: 0% 5%;
+}

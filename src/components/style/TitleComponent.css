@@ -1,15 +1,6 @@
 @media (min-width: 650px) {
-    .title-item {
-        font-size: 1.125em;
-    }
     .title-item.mobile {
         display: none;
-    }
-}
-
-@media (max-width: 1300px) {
-    .title-item {
-        font-size: 0.9em;
     }
 }
 
@@ -23,6 +14,7 @@
     display: inline-block;
     width: 30%;
     margin: 0% 5%;
+    font-size: 1.2rem;
     font-weight: bold;
     padding: 3% auto;
 }

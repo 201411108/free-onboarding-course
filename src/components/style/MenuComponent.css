@@ -1,3 +1,23 @@
+@media (min-width: 650px) {
+    .menu-ul {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 649px) {
+    .menu-ul {
+        justify-content: flex-start;
+    }
+
+    .menu-li {
+        margin-right: 12%;
+    }
+
+    .menu-li.mobile {
+        display: none;
+    }
+}
+
 .menu-ul, .menu-li {
     display: inline-block;
     list-style-type: none;
@@ -6,11 +26,12 @@
 .menu-ul {
     display: inline-flex;
     width: 100%;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .menu-li {
-    width: 12%;
+    /* width: 12%; */
     float: left;
+    font-size: 1rem;
     font-weight: bold;
 }

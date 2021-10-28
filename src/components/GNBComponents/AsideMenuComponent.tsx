@@ -11,7 +11,7 @@ function AsideMenuComponent() {
             <FontAwesomeIcon className='aside-item' icon={ faBell } size='lg' />
             <FontAwesomeIcon className='aside-item desktop' icon={ faUserCircle } size='lg' />
             <FontAwesomeIcon className='aside-item mobile' icon={ faBars } size='lg' />
-            <div className='aside-btn desktop'><a href='/'>기업 서비스</a></div>
+            <div className='aside-btn desktop'><a className='aside-a' href='/'>기업 서비스</a></div>
         </>
     )
 }

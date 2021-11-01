@@ -1,10 +1,16 @@
 @media (min-width: 650px) {
+    .aside-item, .aside-btn {
+        margin: 0% 3%;
+    }
     .aside-item.mobile {
         display: none;
     }
 }
 
 @media (max-width: 649px) {
+    .aside-item, .aside-btn {
+        margin: 0% 5%;
+    }
     .aside-item.desktop {
         display: none;
     }
@@ -15,10 +21,6 @@
     .aside-item.mobile {
         display: inline-block;
     }
-}
-
-.aside-item, .aside-btn {
-    margin: 3%;
 }
 
 .aside-btn {

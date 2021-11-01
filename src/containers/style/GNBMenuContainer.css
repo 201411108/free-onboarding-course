@@ -1,20 +1,33 @@
+@media (min-width: 650px) {
+    .aside-menu-container {
+        justify-content: space-around;
+        padding: 0% 5%;
+    }
+}
+
+@media (max-width: 649px) {
+    .aside-menu-container {
+        justify-content: flex-end;
+        padding-right: 2%;
+    }
+}
+
 .title-container, .menu-container, .aside-menu-container {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100%;
 }
 
 .title-container {
     width: 20%;
+    justify-content: center;
 }
 
 .menu-container {
     width: 50%;
+    justify-content: center;
 }
 
 .aside-menu-container {
     width: 30%;
-    justify-content: space-around;
-    padding: 0% 5%;
 }

@@ -1,3 +1,17 @@
+@media (min-width: 650px) {
+  .gnb-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 649px) {
+  .gnb-container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
 .gnb-wrapper {
   position: fixed;
   width: 100%;
@@ -10,7 +24,5 @@
 
 .gnb-container {
   display: flex;
-  width: 80%;
   height: 100%;
-  margin: 0 auto;
 }

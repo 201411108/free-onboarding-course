@@ -1,4 +1,5 @@
 import React from 'react'
+import { Route } from 'react-router-dom'
 import { GNBContainer, TitleContainer, MenuContainer, AsideMenuContainer, ContentsContainer } from 'containers'
 import { AsideMenuComponent, Content, MenuComponent, TitleComponent } from 'components'
 import './App.css'
@@ -19,7 +20,9 @@ function App() {
           </AsideMenuContainer>
         </GNBContainer>
         <ContentsContainer>
-          <Content />
+          <Route exact path='/' component={() => <Content value='home page'/>}/>
+          <Route path='/search' component={() => <Content value='search page'/>}/>
+          <Route path='/career' component={() => <Content value='career page'/>}/>
         </ContentsContainer>
       </div>
     </div>

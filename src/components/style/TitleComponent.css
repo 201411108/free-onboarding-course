@@ -19,3 +19,7 @@
     padding: 3% auto;
 }
 
+.title-link:link, .title-link:visited {
+    color: black;
+    text-decoration: none;
+}

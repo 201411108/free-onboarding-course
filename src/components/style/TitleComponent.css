@@ -22,7 +22,7 @@
     padding: 3% auto;
 }
 
-.title-item:hover {
+.title-item.mobile:hover {
     border-top: 3px solid white;
     border-bottom: 3px solid #3d7ad1;
 }

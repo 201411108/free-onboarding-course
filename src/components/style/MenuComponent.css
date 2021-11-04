@@ -2,6 +2,11 @@
     .menu-ul {
         justify-content: space-around;
     }
+
+    .menu-li.both:hover {
+        border-top: 3px solid white;
+        border-bottom: 3px solid #C4C4C4;
+    }
 }
 
 @media (max-width: 649px) {
@@ -13,7 +18,12 @@
         padding: 0% 12%;
     }
 
-    .menu-li.mobile {
+    .menu-li.both:hover {
+        border-top: 3px solid white;
+        border-bottom: 3px solid #3d7ad1;
+    }
+
+    .menu-li.desktop {
         display: none;
     }
 }
@@ -40,7 +50,7 @@
 
 .menu-li.desktop:hover {
     border-top: 3px solid white;
-    border-bottom: 3px solid #3d7ad1;
+    border-bottom: 3px solid #C4C4C4;
 }
 
 .menu-link:link, .menu-link:visited {

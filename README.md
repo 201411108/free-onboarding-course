@@ -3,7 +3,7 @@
 > 2021년 7월 18일 ~ 8월 17일<br>
 > Practicing Global Navigation Bar(GNB) implementation
 
-## Contents
+## 🖇️ Contents
 1. [Technical Stack](#Stack)
 2. [Features](#Features)
    1. [Global Navigation Bar](#1-Global-Navigation-Bar)
@@ -20,7 +20,7 @@
   <img src='./assets/preview_mobile.GIF'/>
 </p>
 
-## Stack
+## 💻 Stack
 <p>
   <img src="https://img.shields.io/static/v1?label=&message=React&color=61DAFB&logo=react&logoColor=FFFFFF"/>
   <img src="https://img.shields.io/static/v1?label=&message=Typescript&color=3178C6&logo=typescript&logoColor=FFFFFF"/>
@@ -28,7 +28,7 @@
   <img src="https://img.shields.io/static/v1?label=&message=FontAwesome&color=3e32a8&logo=fontawesome&logoColor=FFFFFF"/>
 </p>
 
-## Features
+## 💡 Features
 
 ### 1. Global Navigation Bar
    * 페이지 컨텐츠에 상관없이 항상 상단에 고정

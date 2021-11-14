@@ -3,6 +3,10 @@
 > 2021년 7월 18일 ~ 8월 17일<br>
 > Practicing Global Navigation Bar(GNB) implementation
 
+## Contents
+1. [Technical Stack](#Stack)
+2. [Features](#Features)
+
 <h3 align='center'>Desktop Preview</h3>
 <p align='center'>
   <img src='./assets/preview_desktop.GIF'/>

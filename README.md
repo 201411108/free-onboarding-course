@@ -6,10 +6,10 @@
 ## Contents
 1. [Technical Stack](#Stack)
 2. [Features](#Features)
-   1. [Global Navigation Bar](#1.-Global-Navigation-Bar)
-   2. [Media Query](#2.-Media-Query)
-   3. [CSS Selector](#3.-CSS-selector)
-   4. [Routing](#4.-Routing)
+   1. [Global Navigation Bar](#1-Global-Navigation-Bar)
+   2. [Media Query](#2-Media-Query)
+   3. [CSS Selector](#3-CSS-selector)
+   4. [Routing](#4-Routing)
 
 <h3 align='center'>Desktop Preview</h3>
 <p align='center'>

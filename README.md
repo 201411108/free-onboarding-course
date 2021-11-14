@@ -58,7 +58,7 @@
    * /search : 탐색 페이지 클릭 시 탐색 페이지임을 표시
    * /career : 커리어 성장 클릭 시 커리어 성장 페이지임을 표시
  <p align='center'>
-  <img src='./assets/routing.GIF'/>
+  <img src='./assets/B091D013-C60E-4032-931B-BFAC6064B5CD.gif'/>
 </p>
 
 5. PC 화면에서 탐색에 마우스를 올릴 경우 숨겨져 있는 정보 표시(구현 중)

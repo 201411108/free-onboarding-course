@@ -4,12 +4,15 @@
 > Practicing Global Navigation Bar(GNB) implementation
 
 ## 🖇️ Contents
-1. [Technical Stack](#Stack)
-2. [Features](#Features)
-   1. [Global Navigation Bar](#1-Global-Navigation-Bar)
-   2. [Media Query](#2-Media-Query)
-   3. [CSS Selector](#3-CSS-selector)
-   4. [Routing](#4-Routing)
+- [global-navigation-bar](#global-navigation-bar)
+  - [🖇️ Contents](#️-contents)
+  - [💻 Stack](#-stack)
+  - [💡 Features](#-features)
+    - [1. Global Navigation Bar](#1-global-navigation-bar)
+    - [2. Media Query](#2-media-query)
+    - [3. CSS selector](#3-css-selector)
+    - [4. Routing](#4-routing)
+    - [5. Future work](#5-future-work)
 
 <h3 align='center'>Desktop Preview</h3>
 <p align='center'>
@@ -65,7 +68,7 @@
      * /search : 탐색 페이지 클릭 시 탐색 페이지임을 표시
      * /career : 커리어 성장 클릭 시 커리어 성장 페이지임을 표시
  <p align='center'>
-  <img src='./assets/B091D013-C60E-4032-931B-BFAC6064B5CD.gif'/>
+  <img src='./assets/routing.gif'/>
 </p>
 
 ### 5. Future work
